@@ -1,0 +1,25 @@
+//  Print the given pattern
+
+// 1 2 3 4
+// 1 2 3
+// 1 2
+// 1
+
+// Number Triangle Ulta
+
+#include <stdio.h>
+int main(){
+    int n;
+    printf("enter the no of rows");
+    scanf("%d",&n);
+    int a=n;
+    for (int i = 1; i<=n;i++){
+        for(int j=1;j<=a;j++){
+            printf("%d",j);
+
+        }
+        a--;
+        printf("\n");
+    }
+
+}
