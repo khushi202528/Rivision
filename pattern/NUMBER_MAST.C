@@ -18,9 +18,11 @@ int main(){
         for(int j =0; j<=n/2+1-i;j++){
             printf("*");
         }
+        //middle
         for(int k =0;k<=2*i-1;k++){
             printf(" ");
         }
+        //right side
         for(int l = 0;l<=n/2+1-i;l++){
             printf("*");
         }
